@@ -16,4 +16,6 @@ limitations under the License.
 
 # Categorization and Complex System Instructions
 
-This notebook provides a simple example for interacting with Google's Gemini models for chat using Vertex AI. For more information please visit https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/send-chat-prompts-gemini
+This notebook provides an example for simplifying long or complex system instructions when using Gemini on Vertex AI. Complex instructions can increase the chance of the model misinterpreting parts of the prompt and deviating from the intended behavior. A general best practice when interacting with most LLMs is to favor clarity, modularity, and explicitness with your instructions. In this example we will see how we can use a categorization agent to help determine the appropraite system instruction. 
+
+For more information please visit https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/send-chat-prompts-gemini and https://cloud.google.com/vertex-ai/generative-ai/docs/learn/prompts/system-instructions
